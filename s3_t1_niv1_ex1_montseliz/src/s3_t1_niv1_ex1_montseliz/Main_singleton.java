@@ -1,5 +1,6 @@
 package s3_t1_niv1_ex1_montseliz;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main_singleton {
@@ -12,10 +13,10 @@ public class Main_singleton {
 		Undo.getInstance(); 
 		
 		// Comprovar que la instància s'ha creat correctament
-		// boolean check = Undo.getInstance() instanceof ArrayList<String>; 
-		// System.out.println(check);  
+		// boolean check = Undo.getInstance() instanceof Undo; 
+		//System.out.println(check);  
 		
-		do {
+		do {   
 			System.out.println("Escull quina opció vols realitzar del menú següent:\r\n"
 					+ "1. Afegir una comanda.\r\n" 
 					+ "2. Eliminar una comanda.\r\n"
